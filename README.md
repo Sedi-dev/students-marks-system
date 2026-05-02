@@ -157,4 +157,10 @@ It demonstrates my ability to:
 
 ---
 
+## 👨🏻‍💻 Gameplay Demo
+
+<img width="410" height="540" alt="student_marks_system_examplerun1" src="https://github.com/user-attachments/assets/bcc859f9-e594-4245-969a-29e865346367" />
+
+
+
 
