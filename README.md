@@ -49,12 +49,13 @@ It was built as part of my learning journey in Python to strengthen problem-solv
 
 This project demonstrates understanding of:
 
-- Dictionaries for strutured data storage
+- Dictionaries for structured data storage
 - Loops and iteration
 - Aggregation and calculations (averages)
 - Use of max() and min() with key functions
 - Input validation and user interaction
-    
+
+---
 
 ## 🧠 How It Works
 
@@ -93,6 +94,15 @@ The program follows a simple structured flow:
 - Built-in data structures (dict, list)
 - Conditional statements
 - Functions for modular design
+
+---
+
+## 📦 Dependencies
+No external libraries required — runs with Python standard library only.
+
+### Requirements
+- Python 3.6 or higher
+- No pip install needed
 
 ---
 
@@ -159,8 +169,8 @@ It demonstrates my ability to:
 
 ## 👨🏻‍💻 Gameplay Demo
 
-<img width="410" height="540" alt="student_marks_system_examplerun1" src="https://github.com/user-attachments/assets/bcc859f9-e594-4245-969a-29e865346367" />
+![Student marks system running](https://github.com/user-attachments/assets/bcc859f9-e594-4245-969a-29e865346367)
 
+![Invalid subject number](https://github.com/user-attachments/assets/7abe86f3-e204-49ee-bbd7-985534396d1f)
 
-
-
+![Input validation for marks](https://github.com/user-attachments/assets/0b597c43-4d0c-47d9-b56f-491315667295)
