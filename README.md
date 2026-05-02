@@ -54,8 +54,7 @@ This project demonstrates understanding of:
 - Aggregation and calculations (averages)
 - Use of max() and min() with key functions
 - Input validation and user interaction
-  
----  
+    
 
 ## 🧠 How It Works
 
