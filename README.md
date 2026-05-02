@@ -110,7 +110,7 @@ No external libraries required — runs with Python standard library only.
 
 student-marks-system/
 │
-├── marks.py        # Main program logic
+├── student_marks_system.py        # Main program logic
 └── README.md       # Project documentation
 
 ---
@@ -124,7 +124,7 @@ Navigate into the project folder:
 cd student-marks-system
 
 Run the program:
-python marks.py 
+python student_marks_system.py 
 
 ---
 
