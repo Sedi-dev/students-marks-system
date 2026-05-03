@@ -1,49 +1,48 @@
 # 📊 Student Marks System (Python)
 
-A command-line Python application that collects, processes, and evaluates student academic performance across multiple subjects.
+A command-line Python application that collects student subject marks, calculates performance, and generates a structured report.
 
-This project demonstrates fundamental programming concepts such as data structures, functions, input validation, and basic data analysis.
+This project focuses on problem-solving, data handling, and building clean, modular code.
 
 ---
 
 ## 📌 Project Overview
 
-This project is a student performance analysis system written in Python. It allows users to input subject marks, calculate averages, and analyze academic performance. 
+This project simulates a simple grading system. It allows users to input subject marks, calculate averages, and generate a structured performance report.
 
 ---
 
-## 🎯 Project Purpose
+## ⭐ Project Purpose
 
-The goal of this project is to simulate a simple academic grading system that:
+This project was built as part of my Computer Science learning journey to apply programming concepts in a structured, real-world simulation.
 
- - Stores student subject marks
- - Calculates overall performance
- - Identifies strongest and weakest subjects
- - Assigns a final grade based on average performance
+It demonstrates my ability to:
 
-It was built as part of my learning journey in Python to strengthen problem-solving and structured programming skills.
+- Break down problems logically
+- Design modular programs
+- Work with structured data
+- Build functional Python applications
 
 ---
 
 ## ⚙️ Features
-- Input student name and number of subjects
-- Dynamic subject and mark entry
-- Input validation for:
-   - Number of subjects (> 0)
-   - Marks (0–100 range)
-- Automatic calculation of:
-   - Average mark
-   - Best performing subject
-   - Worst performing subject
-- Grade classification system:
-   - Distinction (A)
-   - Second Class (B)
-   - Pass (C)
-   - Weak Pass (D)
-   - Fail (F)
-- Clean, structured output report
-  
+
+- Input student name and number of subjects  
+- Dynamic subject and mark entry  
+- Input validation:
+  - Number of subjects (> 0)  
+  - Marks (0–100 range)  
+- Calculates:
+  - Average mark  
+  - Best performing subject  
+  - Worst performing subject  
+- Grade classification system (A–F scale)  
+- Displays a clean, structured report  
+- Saves report to a text file (`student_report.txt`)  
+- Appends multiple student reports  
+
 ---
+
 
 ## 🧠 Key Concepts & Skills Demonstrated
 
@@ -70,9 +69,11 @@ The program follows a simple structured flow:
    - Calculate total and average
    - Determine best and worst subjects
 3. Evaluation Phase
-   - Assign grade based on average score
+   - Assign grade based on average mark
 4. Output Phase
    - Display a structured performance report
+5. File Handling
+   - Saves results to a text file
 
 ---
 
@@ -110,8 +111,8 @@ No external libraries required — runs with Python standard library only.
 
 student-marks-system/
 │
-├── student_marks_system.py        # Main program logic
-└── README.md       # Project documentation
+├── student_marks_system.py   # Main program logic
+└── README.md                 # Project documentation
 
 ---
 
@@ -124,18 +125,19 @@ Navigate into the project folder:
 cd student-marks-system
 
 Run the program:
-python student_marks_system.py 
+python3 student_marks_system.py 
 
 ---
 
 ## 💡 Learning Outcome
 
-This project improved my ability to structure and analyze data using dictionaries, as well as apply built-in Python functions for efficient data processing.
+This project improved my ability to structure and analyze data using dictionaries, as well as apply built-in Python functions for efficient data processing. I learnt:
 - How to structure a program using multiple functions
 - How to use dictionaries to model real-world data
 - How to perform calculations on grouped data
 - How to validate and sanitize user input
 - How to design a clean output/report system
+- Writing data to files and managing persistence
 
 ---
 
@@ -146,31 +148,29 @@ One of the main challenges was designing a system that could handle multiple sub
 ---
 
 ## 🚀 Future Improvements
-- Add file saving/loading for student records
+
 - Support multiple students in one system
 - Add GUI version (Tkinter or web-based interface)
 - Export results as PDF report cards
 - Add ranking system for multiple students
+- Store and retrieve data from a database
 
 ---
 
-## ⭐ Project Purpose
+## 👨🏻‍💻 Program Demo
 
-This project was built as part of my Computer Science learning journey to apply programming concepts in a structured, real-world simulation.
+![Student marks system running](https://github.com/user-attachments/assets/df597fbd-a833-4ea5-8070-602d052afb11)
 
-It demonstrates my ability to:
+![Invalid subject number](https://github.com/user-attachments/assets/b964169d-e950-46e6-91ee-4cae76e1a770)
 
-- Break down problems logically
-- Design modular programs
-- Work with structured data
-- Build functional Python applications
+![Input validation for marks](https://github.com/user-attachments/assets/557dbd49-d856-4438-83aa-a39578051a0a)
+
+
+![student.txt](https://github.com/user-attachments/assets/57b7fd68-1d28-4ed5-8164-24e460e5c8b5)
 
 ---
 
-## 👨🏻‍💻 Gameplay Demo
+## ⭐ Final Note
 
-![Student marks system running](https://github.com/user-attachments/assets/bcc859f9-e594-4245-969a-29e865346367)
-
-![Invalid subject number](https://github.com/user-attachments/assets/7abe86f3-e204-49ee-bbd7-985534396d1f)
-
-![Input validation for marks](https://github.com/user-attachments/assets/0b597c43-4d0c-47d9-b56f-491315667295)
+This project reflects my approach to learning:
+building complete, functional programs to apply and reinforce core concepts.
