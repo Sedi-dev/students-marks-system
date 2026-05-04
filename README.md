@@ -174,3 +174,7 @@ One of the main challenges was designing a system that could handle multiple sub
 
 This project reflects my approach to learning:
 building complete, functional programs to apply and reinforce core concepts.
+
+---
+
+Last updated: May 2026
