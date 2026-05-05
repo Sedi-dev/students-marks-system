@@ -157,16 +157,47 @@ One of the main challenges was designing a system that could handle multiple sub
 
 ---
 
+## 🚀 Recent Upgrades(May 2026)
+
+### Version 2.0 - Menu System & JSON Persistence
+
+**New Features:**
+- **Interactive menu:** Add students, view all records,or exit
+- **JSON data storage:** All records save to 'student_data.json' and load automatically
+- **View all students:** Browse all saved records in a clean format
+- **Persistant database:** Data survives between program runs
+
+**What this demonstrates:**
+- File I/O with JSON
+- Data persistence patterns
+- User-centered menu design
+- Professional application structure
+
+**Files created:**
+| File | Purpose |
+|------|---------|
+| `student_report.txt` | Human-readable report |
+| `student_data.json` | Machine-readable database |
+
 ## 👨🏻‍💻 Program Demo
 
 ![Student marks system running](https://github.com/user-attachments/assets/df597fbd-a833-4ea5-8070-602d052afb11)
 
+
 ![Invalid subject number](https://github.com/user-attachments/assets/b964169d-e950-46e6-91ee-4cae76e1a770)
+
 
 ![Input validation for marks](https://github.com/user-attachments/assets/557dbd49-d856-4438-83aa-a39578051a0a)
 
 
 ![student.txt](https://github.com/user-attachments/assets/57b7fd68-1d28-4ed5-8164-24e460e5c8b5)
+
+
+![Updated Student marks system running](https://github.com/user-attachments/assets/79450efc-097e-48a6-936f-3c8ff1e4d3ed)
+
+
+![student_data.json example](https://github.com/user-attachments/assets/b6dbcaa0-e009-45ff-ad6e-3ca5c839f317)
+
 
 ---
 
@@ -178,3 +209,4 @@ building complete, functional programs to apply and reinforce core concepts.
 ---
 
 Last updated: May 2026
+
