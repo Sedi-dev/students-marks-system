@@ -2,7 +2,7 @@
 
 A command-line Python application that collects student subject marks, calculates performance, and generates a structured report.
 
-This project focuses on problem-solving, data handling, and building clean, modular code.
+This project focuses on problem-solving, data handling, and building clean, modular programs that simulate real-world systems.
 
 ---
 
@@ -10,18 +10,20 @@ This project focuses on problem-solving, data handling, and building clean, modu
 
 This project simulates a simple grading system. It allows users to input subject marks, calculate averages, and generate a structured performance report.
 
+The system has been extended to include persistent storage and multi-student support, making it closer to a real-world application.
+
 ---
 
 ## ⭐ Project Purpose
 
-This project was built as part of my Computer Science learning journey to apply programming concepts in a structured, real-world simulation.
+This project was built as part of my Computer Science learning journey to apply programming concepts in a structured, practical context.
 
 It demonstrates my ability to:
 
 - Break down problems logically
 - Design modular programs
 - Work with structured data
-- Build functional Python applications
+- Build complete, functional Python applications
 
 ---
 
@@ -39,7 +41,10 @@ It demonstrates my ability to:
 - Grade classification system (A–F scale)  
 - Displays a clean, structured report  
 - Saves report to a text file (`student_report.txt`)  
-- Appends multiple student reports  
+- Appends multiple student reports
+- JSON-based data storage ('student_data.json')
+- View all saved student records
+- Interactive menu system 
 
 ---
 
@@ -53,6 +58,9 @@ This project demonstrates understanding of:
 - Aggregation and calculations (averages)
 - Use of max() and min() with key functions
 - Input validation and user interaction
+- File handling(text + JSON)
+- Data persistence and simple storage systems
+  
 
 ---
 
@@ -72,8 +80,9 @@ The program follows a simple structured flow:
    - Assign grade based on average mark
 4. Output Phase
    - Display a structured performance report
-5. File Handling
+5. File Handling/Persistence Layer
    - Saves results to a text file
+   - Store structured data in JSON for reuse
 
 ---
 
@@ -103,16 +112,18 @@ No external libraries required — runs with Python standard library only.
 
 ### Requirements
 - Python 3.6 or higher
-- No pip install needed
+- No external libraries required
 
 ---
 
 ## 📁 Project Structure
 
-student-marks-system/
+sstudent-marks-system/
 │
 ├── student_marks_system.py   # Main program logic
-└── README.md                 # Project documentation
+├── student_report.txt        # Generated reports
+├── student_data.json         # Stored student records
+└── README.md                 # Documentation
 
 ---
 
@@ -129,6 +140,26 @@ python3 student_marks_system.py
 
 ---
 
+## 🚀 Recent Upgrades(May 2026)
+
+### Version 2.0 - Menu System & JSON Persistence
+This update transforms the project from a single-use script into a persistent multi-student system.
+
+### 🔹 New Features
+- **Interactive menu:** Add students, view all records,or exit
+- **JSON data storage:** All records save to 'student_data.json' and load automatically
+- **View all students:** Browse all saved records in a clean format
+- **Persistent database:** Data survives between program runs
+
+### 🔹 What this demonstrates
+- File I/O with JSON
+- Data persistence patterns
+- User-centered menu design
+- Professional application structure
+
+
+---
+
 ## 💡 Learning Outcome
 
 This project improved my ability to structure and analyze data using dictionaries, as well as apply built-in Python functions for efficient data processing. I learnt:
@@ -138,53 +169,36 @@ This project improved my ability to structure and analyze data using dictionarie
 - How to validate and sanitize user input
 - How to design a clean output/report system
 - Writing data to files and managing persistence
+- Transition from simple scripts to structured systems
 
 ---
 
  ## 📌 Challenges Faced
 
-One of the main challenges was designing a system that could handle multiple subjects dynamically while still producing accurate summaries. This was solved using dictionary-based storage and built-in Python functions like sum(), max(), and min(). 
+One of the main challenges was designing a system that could handle multiple subjects dynamically while still producing accurate summaries. This was solved using dictionary-based storage and built-in Python functions like sum(), max(), and min().
+
+A key challenge was designing a system that could handle multiple students while maintaining accurate calculations and clean data storage. This was solved by introducing structured dictionaries and extending the program with JSON-based persistence.
 
 ---
 
 ## 🚀 Future Improvements
 
-- Support multiple students in one system
 - Add GUI version (Tkinter or web-based interface)
 - Export results as PDF report cards
 - Add ranking system for multiple students
-- Store and retrieve data from a database
+- Database integration
 
 ---
 
-## 🚀 Recent Upgrades(May 2026)
-
-### Version 2.0 - Menu System & JSON Persistence
-
-**New Features:**
-- **Interactive menu:** Add students, view all records,or exit
-- **JSON data storage:** All records save to 'student_data.json' and load automatically
-- **View all students:** Browse all saved records in a clean format
-- **Persistant database:** Data survives between program runs
-
-**What this demonstrates:**
-- File I/O with JSON
-- Data persistence patterns
-- User-centered menu design
-- Professional application structure
-
-**Files created:**
-| File | Purpose |
-|------|---------|
-| `student_report.txt` | Human-readable report |
-| `student_data.json` | Machine-readable database |
-
 ## 👨🏻‍💻 Program Demo
+
 
 ![Student marks system running](https://github.com/user-attachments/assets/df597fbd-a833-4ea5-8070-602d052afb11)
 
 
+
 ![Invalid subject number](https://github.com/user-attachments/assets/b964169d-e950-46e6-91ee-4cae76e1a770)
+
 
 
 ![Input validation for marks](https://github.com/user-attachments/assets/557dbd49-d856-4438-83aa-a39578051a0a)
@@ -193,10 +207,13 @@ One of the main challenges was designing a system that could handle multiple sub
 ![student.txt](https://github.com/user-attachments/assets/57b7fd68-1d28-4ed5-8164-24e460e5c8b5)
 
 
-![Updated Student marks system running](https://github.com/user-attachments/assets/79450efc-097e-48a6-936f-3c8ff1e4d3ed)
+
+![Updated Student marks system running](https://github.com/user-attachments/assets/6ea46985-ca40-4e2e-8a70-8a61c23140eb)
 
 
-![student_data.json example](https://github.com/user-attachments/assets/b6dbcaa0-e009-45ff-ad6e-3ca5c839f317)
+
+![student_data.json example](https://github.com/user-attachments/assets/db163d69-d7fe-48cd-8910-0c1e3d4f2542)
+
 
 
 ---
@@ -204,7 +221,8 @@ One of the main challenges was designing a system that could handle multiple sub
 ## ⭐ Final Note
 
 This project reflects my approach to learning:
-building complete, functional programs to apply and reinforce core concepts.
+
+Building complete, progressively improved applications to reinforce core programming concepts and develop practical problem-solving skills.
 
 ---
 
