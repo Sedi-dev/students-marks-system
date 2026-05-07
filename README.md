@@ -1,6 +1,6 @@
 # 📊 Student Marks System (Python)
 
-A command-line Python application that collects student subject marks, calculates performance, and generates a structured report.
+A command-line Python application that collects student subject marks, calculates student's performance, and generates a structured report.
 
 This project focuses on problem-solving, data handling, and building clean, modular programs that simulate real-world systems.
 
@@ -64,6 +64,7 @@ This project demonstrates understanding of:
 
 ---
 
+
 ## 🧠 How It Works
 
 The program follows a simple structured flow:
@@ -84,7 +85,9 @@ The program follows a simple structured flow:
    - Saves results to a text file
    - Store structured data in JSON for reuse
 
+
 ---
+
 
 ## 🧮 Grading System
 
@@ -105,7 +108,9 @@ The program follows a simple structured flow:
 - Conditional statements
 - Functions for modular design
 
+
 ---
+
 
 ## 📦 Dependencies
 No external libraries required — runs with Python standard library only.
@@ -114,7 +119,9 @@ No external libraries required — runs with Python standard library only.
 - Python 3.6 or higher
 - No external libraries required
 
+
 ---
+
 
 ## 📁 Project Structure
 
@@ -125,7 +132,9 @@ sstudent-marks-system/
 ├── student_data.json         # Stored student records
 └── README.md                 # Documentation
 
+
 ---
+
 
 ## ▶️ How to Run the Project
 
@@ -138,7 +147,9 @@ cd student-marks-system
 Run the program:
 python3 student_marks_system.py 
 
+
 ---
+
 
 ## 🚀 Recent Upgrades(May 2026)
 
@@ -160,6 +171,7 @@ This update transforms the project from a single-use script into a persistent mu
 
 ---
 
+
 ## 💡 Learning Outcome
 
 This project improved my ability to structure and analyze data using dictionaries, as well as apply built-in Python functions for efficient data processing. I learnt:
@@ -171,7 +183,9 @@ This project improved my ability to structure and analyze data using dictionarie
 - Writing data to files and managing persistence
 - Transition from simple scripts to structured systems
 
+
 ---
+
 
  ## 📌 Challenges Faced
 
@@ -179,7 +193,9 @@ One of the main challenges was designing a system that could handle multiple sub
 
 A key challenge was designing a system that could handle multiple students while maintaining accurate calculations and clean data storage. This was solved by introducing structured dictionaries and extending the program with JSON-based persistence.
 
+
 ---
+
 
 ## 🚀 Future Improvements
 
@@ -188,7 +204,9 @@ A key challenge was designing a system that could handle multiple students while
 - Add ranking system for multiple students
 - Database integration
 
+
 ---
+
 
 ## 👨🏻‍💻 Program Demo
 
@@ -218,11 +236,13 @@ A key challenge was designing a system that could handle multiple students while
 
 ---
 
+
 ## ⭐ Final Note
 
 This project reflects my approach to learning:
 
 Building complete, progressively improved applications to reinforce core programming concepts and develop practical problem-solving skills.
+
 
 ---
 
