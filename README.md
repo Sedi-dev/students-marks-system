@@ -246,5 +246,9 @@ Building complete, progressively improved applications to reinforce core program
 
 ---
 
+⭐ If you found this project interesting, feel free to explore my other repositories.
+
+---
+
 Last updated: May 2026
 
