@@ -1,0 +1,99 @@
+---- Student Report ----
+Name: Alexia
+
+Tourism: 55.0%
+Cat: 79.0%
+Consumer Studies: 88.0%
+Geography: 90.0%
+Average: 78.0 %
+Result: Distinction (A)
+
+---- Performance Summary ----
+Best Subject: Geography (90.0%)
+Worst Subject: Tourism (55.0%)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---- Student Report ----
+Name: Alex
+
+Tourism: 67.0%
+Biology: 78.0%
+Chemistry: 89.0%
+Average: 78.0 %
+Result: Distinction (A)
+
+---- Performance Summary ----
+Best Subject: Chemistry (89.0%)
+Worst Subject: Tourism (67.0%)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+---- Student Report ----
+Name: Khumo
+
+Mathematics: 47.0%
+Geography: 86.0%
+Average: 66.5 %
+Result: Pass (C)
+
+---- Performance Summary ----
+Best Subject: Geography (86.0%)
+Worst Subject: Mathematics (47.0%)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+---- Student Report ----
+Name: Thabo
+
+Maths: 76.0%
+English: 93.0%
+Average: 84.5 %
+Result: Distinction (A)
+
+---- Performance Summary ----
+Best Subject: English (93.0%)
+Worst Subject: Maths (76.0%)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+---- Student Report ----
+Name: Lerato
+
+Physics: 80.0%
+Chemistry: 70.0%
+Average: 75.0 %
+Result: Distinction (A)
+
+---- Performance Summary ----
+Best Subject: Physics (80.0%)
+Worst Subject: Chemistry (70.0%)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+---- Student Report ----
+Name: Thomas
+
+Geography: 78.0%
+Engineering: 64.0%
+Maths: 72.0%
+Average: 71.33 %
+Result: Second Class (B)
+
+---- Performance Summary ----
+Best Subject: Geography (78.0%)
+Worst Subject: Engineering (64.0%)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+---- Student Report ----
+Name: Palesa
+
+Maths: 66.0%
+Geography: 89.0%
+History: 71.0%
+Average: 75.33 %
+Result: Distinction (A)
+
+---- Performance Summary ----
+Best Subject: Geography (89.0%)
+Worst Subject: Maths (66.0%)

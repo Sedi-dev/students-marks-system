@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "Thabo",
+        "Subjects": {
+            "Maths": 76.0,
+            "English": 93.0
+        },
+        "Average": 84.5,
+        "Grade": "Distinction (A)",
+        "Best Subject": "English",
+        "Best Mark": 93.0,
+        "Worst Subject": "Maths",
+        "Worst Mark": 76.0
+    },
+    {
+        "Name": "Lerato",
+        "Subjects": {
+            "Physics": 80.0,
+            "Chemistry": 70.0
+        },
+        "Average": 75.0,
+        "Grade": "Distinction (A)",
+        "Best Subject": "Physics",
+        "Best Mark": 80.0,
+        "Worst Subject": "Chemistry",
+        "Worst Mark": 70.0
+    },
+    {
+        "Name": "Thomas",
+        "Subjects": {
+            "Geography": 78.0,
+            "Engineering": 64.0,
+            "Maths": 72.0
+        },
+        "Average": 71.33,
+        "Grade": "Second Class (B)",
+        "Best Subject": "Geography",
+        "Best Mark": 78.0,
+        "Worst Subject": "Engineering",
+        "Worst Mark": 64.0
+    },
+    {
+        "Name": "Palesa",
+        "Subjects": {
+            "Maths": 66.0,
+            "Geography": 89.0,
+            "History": 71.0
+        },
+        "Average": 75.33,
+        "Grade": "Distinction (A)",
+        "Best Subject": "Geography",
+        "Best Mark": 89.0,
+        "Worst Subject": "Maths",
+        "Worst Mark": 66.0
+    }
+]
