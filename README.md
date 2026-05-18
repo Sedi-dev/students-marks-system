@@ -211,22 +211,26 @@ A key challenge was designing a system that could handle multiple students while
 ## 👨🏻‍💻 Program Demo
 
 
-![Student marks system running](https://github.com/user-attachments/assets/df597fbd-a833-4ea5-8070-602d052afb11)
+![Student marks system running](https://github.com/user-attachments/assets/49710262-8536-4a96-aa8c-800c8f5b7195)
 
 
 
-![Invalid subject number](https://github.com/user-attachments/assets/b964169d-e950-46e6-91ee-4cae76e1a770)
+
+![Invalid subject number](https://github.com/user-attachments/assets/bdc9830b-678f-4fde-9d66-f45654266330)
 
 
 
-![Input validation for marks](https://github.com/user-attachments/assets/557dbd49-d856-4438-83aa-a39578051a0a)
+
+![Input validation for marks](https://github.com/user-attachments/assets/e0be98f3-46dc-4b28-a603-74d6741c12d4)
+
 
 
 ![student.txt](https://github.com/user-attachments/assets/57b7fd68-1d28-4ed5-8164-24e460e5c8b5)
 
 
 
-![Updated Student marks system running](https://github.com/user-attachments/assets/6ea46985-ca40-4e2e-8a70-8a61c23140eb)
+![Updated Student marks system running](https://github.com/user-attachments/assets/f0d62dbc-11a7-4636-85c1-9df911d678ce)
+
 
 
 
