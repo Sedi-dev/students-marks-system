@@ -127,7 +127,7 @@ def display_all_students(student_list):
     """ Display all saved students. """
     
     if not student_list:
-        print("\n❌ No students found. Please add a student first.\n")
+        print("\nNo students found. Please add a student first.\n")
         return
     
     print("\n" + "="*50)
@@ -136,7 +136,7 @@ def display_all_students(student_list):
     
     for i, student in enumerate(student_list, 1):
         
-        print(f"\n📚 Student {i}: {student['Name']} ")
+        print(f"\nStudent {i}: {student['Name']} ")
         print(f" Average: {student['Average']}%")
         print(f" Grade: {student['Grade']}")
         print(f" Best: {student['Best Subject']} ({student['Best Mark']})%")
@@ -172,8 +172,8 @@ def main():
             all_students.append(new_student)
             save_all_students(all_students)
             
-            print(f"\n✅ {new_student['Name']} has been added!")
-            print(f"📁 Total students in database: {len(all_students)}")
+            print(f"\n{new_student['Name']} has been added!")
+            print(f"Total students in database: {len(all_students)}")
         
         elif choice == "2":
             print("\n---- View All Students ----")
