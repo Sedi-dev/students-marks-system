@@ -1,8 +1,8 @@
 # 📊 Student Marks System (Python)
 
-A command-line Python application that collects student subject marks, calculates student's performance, and generates a structured report.
+A modular Python application that manages student academic records, calculates performance statistics, and stores data persistently using JSON, and generates visual analytics.
 
-This project focuses on problem-solving, data handling, and building clean, modular programs that simulate real-world systems.
+This project focuses on problem-solving, data handling, and building clean, modular programs that simulate real-world systems. This project evolved from a simple grading calculator into a multi-student management system with persistent storage and graphical reporting.
 
 ---
 
@@ -11,6 +11,8 @@ This project focuses on problem-solving, data handling, and building clean, modu
 This project simulates a simple grading system. It allows users to input subject marks, calculate averages, and generate a structured performance report.
 
 The system has been extended to include persistent storage and multi-student support, making it closer to a real-world application.
+
+This project now allows users to generate graphical analytics.
 
 ---
 
@@ -60,6 +62,8 @@ This project demonstrates understanding of:
 - Input validation and user interaction
 - File handling(text + JSON)
 - Data persistence and simple storage systems
+- JSON persistence
+- Modular software design
   
 
 ---
@@ -101,24 +105,44 @@ The program follows a simple structured flow:
 
 ---
 
+## 📊 Data Analytics
+
+A Python analytics module that loads students' data from a JSON file and generates a visual report using Matplotlib. This module is demonstrates data processing, modular programming, and data visualization.
+
+# ⚙️ Features
+
+- Load student data from a JSON file
+- Extract student names and averages
+- Generate a professional bar graph of student averages
+- Display percentage labels above each bar
+- Automatic graph scaling based on the highest mark to ensure readability
+- Clear axis labels and gridlines for clarity
+
+---
+
 ## 🛠️ Technologies Used
 
 - Python 3
 - Built-in data structures (dict, list)
 - Conditional statements
 - Functions for modular design
+- Matplotlib
+- JSON
 
 
 ---
 
 
 ## 📦 Dependencies
-No external libraries required — runs with Python standard library only.
 
 ### Requirements
 - Python 3.6 or higher
-- No external libraries required
+- Matplotlib
 
+Install Matplotlib with:
+```bash
+pip install matplotlib
+```
 
 ---
 
@@ -128,9 +152,14 @@ No external libraries required — runs with Python standard library only.
 sstudent-marks-system/
 │
 ├── student_marks_system.py   # Main program logic
+├── analytics.py              # Processes student records and generates bar graph
 ├── student_report.txt        # Generated reports
 ├── student_data.json         # Stored student records
-└── README.md                 # Documentation
+├── README.md                 # Documentation
+└── screenshots/
+    ├── analytics.png
+    ├── menu.png
+    ├── json.png
 
 
 ---
@@ -161,6 +190,7 @@ This update transforms the project from a single-use script into a persistent mu
 - **JSON data storage:** All records save to 'student_data.json' and load automatically
 - **View all students:** Browse all saved records in a clean format
 - **Persistent database:** Data survives between program runs
+- **Data visualization:** Bar graph visualizing student averages
 
 ### 🔹 What this demonstrates
 - File I/O with JSON
@@ -174,7 +204,8 @@ This update transforms the project from a single-use script into a persistent mu
 
 ## 💡 Learning Outcome
 
-This project improved my ability to structure and analyze data using dictionaries, as well as apply built-in Python functions for efficient data processing. I learnt:
+This project improved my ability to structure and analyze data using dictionaries, as well as apply built-in Python functions for efficient data processing. Through developing this project, I gained experience in:
+
 - How to structure a program using multiple functions
 - How to use dictionaries to model real-world data
 - How to perform calculations on grouped data
@@ -182,6 +213,7 @@ This project improved my ability to structure and analyze data using dictionarie
 - How to design a clean output/report system
 - Writing data to files and managing persistence
 - Transition from simple scripts to structured systems
+- Designing a bar graph to visualize student data
 
 
 ---
@@ -193,6 +225,8 @@ One of the main challenges was designing a system that could handle multiple sub
 
 A key challenge was designing a system that could handle multiple students while maintaining accurate calculations and clean data storage. This was solved by introducing structured dictionaries and extending the program with JSON-based persistence.
 
+A recent challenge was learning the Matplotlib functions and designing a graph using them and the student records from a JSON file. 
+
 
 ---
 
@@ -202,7 +236,11 @@ A key challenge was designing a system that could handle multiple students while
 - Add GUI version (Tkinter or web-based interface)
 - Export results as PDF report cards
 - Add ranking system for multiple students
-- Database integration
+- SQLite database integration
+- Grade distribution chart
+- Pass/fail pie chart
+- Subject comparison graphs
+- Edit and delete student records
 
 
 ---
@@ -210,32 +248,41 @@ A key challenge was designing a system that could handle multiple students while
 
 ## 👨🏻‍💻 Program Demo
 
+#Screenshots
 
-![Student marks system running](https://github.com/user-attachments/assets/49710262-8536-4a96-aa8c-800c8f5b7195)
+### Adding a new student
+![](https://github.com/user-attachments/assets/49710262-8536-4a96-aa8c-800c8f5b7195)
 
 
 
-
+### Student number validation
 ![Invalid subject number](https://github.com/user-attachments/assets/bdc9830b-678f-4fde-9d66-f45654266330)
 
 
 
-
+### Mark input validation
 ![Input validation for marks](https://github.com/user-attachments/assets/e0be98f3-46dc-4b28-a603-74d6741c12d4)
 
 
 
+### Student Report
 ![student.txt](https://github.com/user-attachments/assets/57b7fd68-1d28-4ed5-8164-24e460e5c8b5)
 
 
 
+### Saved Student Records
 ![Updated Student marks system running](https://github.com/user-attachments/assets/f0d62dbc-11a7-4636-85c1-9df911d678ce)
 
 
 
-
+### Student Data JSON
 ![student_data.json example](https://github.com/user-attachments/assets/db163d69-d7fe-48cd-8910-0c1e3d4f2542)
 
+
+
+
+### Analytics Dashboard
+![analytics.py example run](https://github.com/user-attachments/assets/47dec57e-70ab-4364-ab10-4128338139ae)
 
 
 ---
