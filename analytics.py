@@ -28,6 +28,7 @@ def get_student_averages(students):
   return std_averages
 
 def plot_student_averages(names, averages):
+  """Creating bar graph for students' averages"""
   
   bars = plt.bar(names, averages, color = "pink")
   
@@ -60,14 +61,6 @@ def main():
     plot_student_averages(names, averages)
     
     print(f"Loaded {len(students)} student record(s).")
-    
-    """Sample of some of student data."""
-    
-    """if len(students) > 0:
-      print("First student:")
-      print("Name:", students[0]["Name"])
-      print("Average:", students[0]["Average"])
-      print("Grade:", students[0]["Grade"])"""
     
     
 if __name__=='__main__':
