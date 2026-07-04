@@ -6,7 +6,7 @@ This project focuses on problem-solving, data handling, and building clean, modu
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project simulates a simple grading system. It allows users to input subject marks, calculate averages, and generate a structured performance report.
 
@@ -16,7 +16,7 @@ This project now allows users to generate graphical analytics.
 
 ---
 
-## ⭐ Project Purpose
+## Project Purpose
 
 This project was built as part of my Computer Science learning journey to apply programming concepts in a structured, practical context.
 
@@ -29,7 +29,7 @@ It demonstrates my ability to:
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Input student name and number of subjects  
 - Dynamic subject and mark entry  
@@ -51,7 +51,7 @@ It demonstrates my ability to:
 ---
 
 
-## 🧠 Key Concepts & Skills Demonstrated
+## Key Concepts & Skills Demonstrated
 
 This project demonstrates understanding of:
 
@@ -69,7 +69,7 @@ This project demonstrates understanding of:
 ---
 
 
-## 🧠 How It Works
+## How It Works
 
 The program follows a simple structured flow:
 
@@ -109,7 +109,7 @@ The program follows a simple structured flow:
 
 A Python analytics module that loads students' data from a JSON file and generates a visual report using Matplotlib. This module is demonstrates data processing, modular programming, and data visualization.
 
-# ⚙️ Features
+# Features
 
 - Load student data from a JSON file
 - Extract student names and averages
@@ -120,7 +120,7 @@ A Python analytics module that loads students' data from a JSON file and generat
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3
 - Built-in data structures (dict, list)
@@ -133,7 +133,7 @@ A Python analytics module that loads students' data from a JSON file and generat
 ---
 
 
-## 📦 Dependencies
+## Dependencies
 
 ### Requirements
 - Python 3.6 or higher
@@ -165,7 +165,7 @@ sstudent-marks-system/
 ---
 
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 Clone the repository:
 git clone https://github.com/Sedi-dev/student-marks-system.git
@@ -180,19 +180,19 @@ python3 student_marks_system.py
 ---
 
 
-## 🚀 Recent Upgrades(May 2026)
+## Recent Upgrades(July 2026)
 
 ### Version 2.0 - Menu System & JSON Persistence
 This update transforms the project from a single-use script into a persistent multi-student system.
 
-### 🔹 New Features
+### New Features
 - **Interactive menu:** Add students, view all records,or exit
 - **JSON data storage:** All records save to 'student_data.json' and load automatically
 - **View all students:** Browse all saved records in a clean format
 - **Persistent database:** Data survives between program runs
 - **Data visualization:** Bar graph visualizing student averages
 
-### 🔹 What this demonstrates
+### What this demonstrates
 - File I/O with JSON
 - Data persistence patterns
 - User-centered menu design
@@ -202,7 +202,7 @@ This update transforms the project from a single-use script into a persistent mu
 ---
 
 
-## 💡 Learning Outcome
+## Learning Outcome
 
 This project improved my ability to structure and analyze data using dictionaries, as well as apply built-in Python functions for efficient data processing. Through developing this project, I gained experience in:
 
@@ -219,7 +219,7 @@ This project improved my ability to structure and analyze data using dictionarie
 ---
 
 
- ## 📌 Challenges Faced
+ ## Challenges Faced
 
 One of the main challenges was designing a system that could handle multiple subjects dynamically while still producing accurate summaries. This was solved using dictionary-based storage and built-in Python functions like sum(), max(), and min().
 
@@ -231,7 +231,7 @@ A recent challenge was learning the Matplotlib functions and designing a graph u
 ---
 
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add GUI version (Tkinter or web-based interface)
 - Export results as PDF report cards
@@ -248,7 +248,6 @@ A recent challenge was learning the Matplotlib functions and designing a graph u
 
 ## 👨🏻‍💻 Program Demo
 
-#Screenshots
 
 ### Adding a new student
 ![](https://github.com/user-attachments/assets/49710262-8536-4a96-aa8c-800c8f5b7195)
@@ -299,7 +298,4 @@ Building complete, progressively improved applications to reinforce core program
 
 ⭐ If you found this project interesting, feel free to explore my other repositories.
 
----
-
-Last updated: May 2026
 
